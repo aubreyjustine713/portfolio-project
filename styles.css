@@ -1,0 +1,17 @@
+h1 {
+  font-size: 96pt;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+h2 {
+  font-size: 36pt;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+p {
+  font-size: 24pt;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
