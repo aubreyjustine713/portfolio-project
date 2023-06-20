@@ -5,7 +5,7 @@
   --default-font-family: "Poppins", sans-serif;
 }
 h1 {
-  font-size: 96pt;
+  font-size: 70pt;
   font-weight: bold;
   font-family: "Playfair Display", serif;
 }
@@ -28,6 +28,11 @@ p {
   line-height: 30px;
   color: var(--tertiary-color);
 }
+a {
+  display: block;
+  text-align: center;
+  color: #6c63ff;
+}
 .hero p {
   font-size: 24pt;
   font-family: var(--default-font-family);
@@ -38,23 +43,27 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
 }
 #head {
   font-size: 24pt;
   font-family: var(--default-font-family);
   line-height: 1.5;
 }
-.about-section p {
+.content-container p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
 .btn-branding {
@@ -77,7 +86,8 @@ p {
   padding: 30px 60px;
 }
 @media (max-width: 960px) {
-  h1 {
+  h1,
+  .content h1 {
     font-size: 44px;
     line-height: 56px;
   }
@@ -87,7 +97,7 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
