@@ -22,11 +22,34 @@ h3 {
 h4 {
   font-size: 24px;
 }
+h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin-bottom: 0;
+}
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   color: var(--tertiary-color);
+}
+footer {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+footer a {
+  text-decoration: none;
+  font-family: var(--default-font-family);
+  color: var(--branding-color);
+  margin: 15px;
+}
+footer a:hover {
+  color: var(--tertiary-color);
+}
+.social-accounts {
+  padding: 30px;
 }
 .btn {
   font-family: var(--default-font-family);
@@ -110,6 +133,19 @@ p {
   color: var(--branding-color);
   font-weight: 500;
 }
+.contact-box {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  background-color: var(--secondary-color);
+}
+.contact-box .btn {
+  margin: 0px;
+}
+.contact-box p {
+  margin: 0;
+}
 @media (max-width: 960px) {
   h1,
   .content h1 {
@@ -129,5 +165,8 @@ p {
   .project-description {
     padding-top: 0;
     text-align: center;
+  }
+  footer {
+    font-size: 16px;
   }
 }
